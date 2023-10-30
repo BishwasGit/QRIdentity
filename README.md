@@ -1,4 +1,5 @@
 # SETUP MONGODB CLUSTER AND CREDENTIALS BEFORE USING THE BACKEND FEATURES ! 
+Make sure you create / edit the .env file in server/.env 
 
 # QRIdentity
 QRIdentity is a cutting-edge identity verification platform that leverages QR code technology to enhance security and streamline authentication processes. It offers a seamless and secure way to generate personalized QR codes containing vital identification information such as citizenship numbers, license details etc. Your information, your control.
@@ -21,16 +22,21 @@ Installation
 Clone the repository:
 
 git clone [https://github.com/your-username/QRIdentity.git](https://github.com/BishwasGit/QRIdentity)
-Install the dependencies:
+
+# Install the dependencies:
 
 cd QRIdentity
 npm install
-Start the development server:
 
+Start the development server:
 npm start
+
+Connect to mongo db 
+node server.js 
 
 # Usage
 Visit the QRIdentity website.(localhost:3000)
+
 Create an account or log in if you already have one.
 Generate a QR code with your identification details.
 Share the QR code whenever needed for verification.
