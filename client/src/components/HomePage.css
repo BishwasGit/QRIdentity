@@ -1,0 +1,35 @@
+.bodyContent {
+  text-align: justify;
+  padding: 1rem;
+  font-family: 'Roboto, sans-serif';
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 8px;
+}
+
+.my-1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.heading {
+  font-weight: 900;
+}
+
+.form{
+  gap : 1rem;
+  margin-bottom: 2rem;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap : 1rem;
+}
+.form_headings{
+  font-family: 'Aileron', sans-serif;
+  font-weight: 900;
+  font-size: larger;                                
+}
