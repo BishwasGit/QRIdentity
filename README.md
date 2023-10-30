@@ -23,7 +23,7 @@ Node.js and npm installed on your system.
 Installation
 Clone the repository:
 
-git clone [https://github.com/your-username/QRIdentity.git](https://github.com/BishwasGit/QRIdentity)
+git clone [https://github.com/your-username/QRIdentity.git] (https://github.com/BishwasGit/QRIdentity)
 
 # Install the dependencies:
 
