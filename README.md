@@ -4,6 +4,8 @@ Make sure you create / edit the .env file in server/.env
 # QRIdentity
 QRIdentity is a cutting-edge identity verification platform that leverages QR code technology to enhance security and streamline authentication processes. It offers a seamless and secure way to generate personalized QR codes containing vital identification information such as citizenship numbers, license details etc. Your information, your control.
 
+<img src="client/Layout.png">
+
 # QRIdentity
 
 Introduction
