@@ -24,14 +24,28 @@ const AppDrawer = ({ isOpen, toggleDrawer, onLogout }) => {
         <ListItem button>
           <ListItemIcon>
           </ListItemIcon>
-          <ListItemText primary={'Generate QR'} />
+          <ListItemText primary={'User Profile'} />
         </ListItem>
       </List>
       <List>
         <ListItem button>
           <ListItemIcon>
           </ListItemIcon>
-          <ListItemText primary={'Profile List'} />
+          <ListItemText primary={'Generated QR'} />
+        </ListItem>
+      </List>
+      <List>
+        <ListItem button>
+          <ListItemIcon>
+          </ListItemIcon>
+          <ListItemText primary={'Identity Cards'} />
+        </ListItem>
+      </List>
+      <List>
+        <ListItem button>
+          <ListItemIcon>
+          </ListItemIcon>
+          <ListItemText primary={'Business Cards'} />
         </ListItem>
       </List>
       <List>

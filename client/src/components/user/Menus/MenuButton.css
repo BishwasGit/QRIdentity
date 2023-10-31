@@ -1,0 +1,5 @@
+.menu_buttons:hover {
+    transform: scale(1.2); /* Adjust the value as per your preference */
+    transition: transform 0.5s; /* Adding a transition for smooth animation */
+  }
+  

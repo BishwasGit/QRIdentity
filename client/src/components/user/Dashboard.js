@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Swal from 'sweetalert2';
 import { useNavigate  } from 'react-router-dom';
 import  NavBar  from './NavBar';
+import Menu from './Menus/Menu';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 
@@ -61,10 +62,7 @@ const Dashboard = () => {
         onThemeChange={handleThemeChange}
       />  
     </ThemeProvider>
-      {/* {userData && (
-        <div>
-        </div>
-      )} */}
+    <Menu userId={userData ? userData._id : null} />
     </div>
   )
 }
