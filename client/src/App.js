@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from './components/HomePage';
 import Dashboard from './components/user/Dashboard'
 import PersonalIdentity from './components/user/Forms/PersonalIdentity';
-import BusinessCard from './components/user/Forms/PersonalIdentity';
-import GeneratedQr from './components/user/Forms/PersonalIdentity';
+import BusinessCard from './components/user/Forms/BusinessCard';
+import GeneratedQr from './components/user/Forms/GeneratedQr';
 
 function App() {  
   return (
