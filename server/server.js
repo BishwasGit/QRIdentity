@@ -32,6 +32,8 @@ app.use('/api', require('./src/routes/api/checkEmail'));
 app.use('/api', require('./src/routes/api/registerUser'));
 app.use('/api', require('./src/routes/api/loginUser'));
 app.use('/api', require('./src/routes/api/getData'));
+app.use('/api', require('./src/routes/api/personalIdentityRegistration'));
+app.use('/api', require('./src/routes/api/fetchPersonalIdentityData'));
 
 
 

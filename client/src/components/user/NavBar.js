@@ -8,10 +8,10 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useNavigate } from "react-router-dom";
 import AppDrawer from "./Drawer";
-import Switch from "@mui/material/Switch";
+// import Switch from "@mui/material/Switch";
 
 export default function NavBar({ userData, onLogout, onThemeChange }) {
-  const [switchChecked, setSwitchChecked] = React.useState(false);
+  /* const [switchChecked, setSwitchChecked] = React.useState(false); */
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
   const handleToggleDrawer = () => {
     setIsDrawerOpen(!isDrawerOpen);

@@ -20,7 +20,7 @@ const AppDrawer = ({ isOpen, toggleDrawer, onLogout }) => {
       };
   const list = () => (
     <div>
-      <List>
+      {/* <List>
         <ListItem button>
           <ListItemIcon>
           </ListItemIcon>
@@ -47,7 +47,7 @@ const AppDrawer = ({ isOpen, toggleDrawer, onLogout }) => {
           </ListItemIcon>
           <ListItemText primary={'Business Cards'} />
         </ListItem>
-      </List>
+      </List> */}
       <List>
         <ListItem button onClick={handleLogout}>
           <ListItemIcon>
