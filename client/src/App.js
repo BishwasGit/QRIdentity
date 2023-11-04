@@ -17,7 +17,7 @@ function App() {
           element={<PersonalIdentity />}
         />
         <Route path="/business-cards/:userId" element={<BusinessCard />} />
-        <Route path="/generated-qr/:userId" element={<GenerateQr />} />
+        <Route path="/generate-qr/:userId" element={<GenerateQr />} />
         <Route path="/list-generated-qr/:userId" element={<GenerateQr />} />
       </Routes>
     </BrowserRouter>

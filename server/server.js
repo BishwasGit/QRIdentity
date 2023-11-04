@@ -34,6 +34,8 @@ app.use('/api', require('./src/routes/api/loginUser'));
 app.use('/api', require('./src/routes/api/getData'));
 app.use('/api', require('./src/routes/api/personalIdentityRegistration'));
 app.use('/api', require('./src/routes/api/fetchPersonalIdentityData'));
+app.use('/api', require('./src/routes/api/saveGeneratedQr'));
+app.use('/api', require('./src/routes/api/generateQr'));
 
 
 

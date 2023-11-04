@@ -18,7 +18,7 @@ const handleButtonClick = (label,userId) => {
   } else if (label === 'Business Cards') {
     navigate(`/business-cards/${userId}`);
   } else if (label === 'Generate Qr Here') {
-    navigate(`/generated-qr/${userId}`);
+    navigate(`/generate-qr/${userId}`);
   }
    else if (label === 'List all') {
     navigate(`/list-generated-qr/${userId}`);
